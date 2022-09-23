@@ -1,0 +1,64 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav{
+    background-color: white;
+    overflow: hidden;    
+}
+
+.topnav a{
+    float: none;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    box-sizing: flex;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: green;
+    color: black;
+}
+
+.topnav a.active1{
+    background-color: yellow;
+    color: black;
+}
+
+.topnav a.active2{
+    background-color: red;
+    color: black;
+}
+
+.topnav a.active3{
+    background-color: blue;
+    color: black;
+}
+
+.topnav a.active4{
+    background-color: green;
+    color: black;
+}
+
+.topnav a.active5{
+    background-color: yellow;
+    color: black;
+}
+
+.topnav a.active6{
+    background-color: red;
+    color: black;
+}
+
+.topnav a.active7{
+    background-color: blue;
+    color: black;
+}
