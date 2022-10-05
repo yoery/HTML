@@ -1,0 +1,58 @@
+.flex-container{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+
+.flex_child{
+  border: 2px solid green;
+  flex-basis: 10px;
+  height: 20px;
+  margin-left: 290px;
+  margin-top: 276px;
+
+}
+
+.flex_child1{
+    border: 2px solid green;
+    flex-basis: 300px;
+    height: 100px;
+    margin-top: -125px;
+    
+
+}
+
+.flex_child2{
+    border: 2px solid green;
+    flex-basis: 15px;
+    height: 75px;
+    margin-top: -204px;
+}
+
+.flex_child3{
+    border: 2px solid green;
+    flex-basis: 25px;
+    height: 30px;
+    margin-top: -301px;
+    margin-left: 125px;
+}
+
+.flex_child:nth-child(1){
+    background:yellow;
+
+
+}
+.flex_child1:nth-child(2){
+    background:red;
+
+}
+.flex_child2:nth-child(3){
+    background:blue;
+
+}
+.flex_child3:nth-child(4){
+    background:purple;
+
+}

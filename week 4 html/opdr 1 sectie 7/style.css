@@ -1,0 +1,11 @@
+.flex-container{
+    border: 2px solid black;
+    display: flex;
+    width: 350px;
+    height: 200px;
+}
+
+.flex_child{
+    border: 1px solid green;
+    flex-wrap: nowrap;
+}
