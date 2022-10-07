@@ -1,0 +1,50 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 15px; 
+    background-color: rgba(196, 195, 195, 0.959);
+}
+
+body {
+    font-family: 'Courier new', monospace;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container {
+    border: 5px solid yellow;
+    background-color: rgb(77, 207, 179);
+
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.header-button {
+    flex-basis: 250px;;
+
+    margin: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.home {
+    flex-grow: 1;
+}
+
+@media all and (max-width:1000px) {
+    .home {
+        flex-grow: 0;
+    }
+}
