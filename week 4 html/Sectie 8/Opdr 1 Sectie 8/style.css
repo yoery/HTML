@@ -1,0 +1,64 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 162.5%;
+}
+
+body {
+    font-family: 'Courier new', monospace;
+    line-height: 1.7;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+
+    min-height: 100vh;
+    min-width: 100vw;
+
+    background-color: salmon;
+
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 80vh;
+    place-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-auto-rows: 200px;
+}
+
+.item {
+    display: grid;
+    place-content: center;
+}
+
+.item--1 {
+    background: yellow;
+}
+
+.item--2 {
+    background: pink;
+}
+
+.item--3 {
+    background: red;
+}
+
+.item--4 {
+    background: blue;
+}
+
+.item--5 {
+    background: purple;
+}
+
+.item--6 {
+    background: green;
+}

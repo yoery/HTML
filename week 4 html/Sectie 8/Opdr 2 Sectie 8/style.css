@@ -1,0 +1,115 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 162.5%;
+}
+
+body {
+    font-family: 'Courier new', monospace;
+    line-height: 1.7;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+
+    min-height: 100vh;
+    min-width: 100vw;
+
+    background-color: salmon;
+
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 80vh;
+    place-content: center;
+}
+
+.container {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: repeat(3, 15%) 54.5%;
+    grid-auto-rows: 5% 5% 10% 10% 10% 10% 10% 9.5% 9% 9% 9%;
+    gap: 2px;
+}
+
+.item {
+    display: grid;
+    place-content: center;
+}
+
+.item-0 {
+    grid-column: span 2;
+}
+
+.item-1 {
+    grid-row: span 2;
+}
+
+.item-3 {
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.item-7 {
+    grid-column: span 2;
+}
+
+.item-8 {
+    grid-row: span 2;
+}
+
+.item-10 {
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.item-14 {
+    grid-column: span 2;
+}
+
+.item-15 {
+    grid-row: span 2;
+}
+
+.item-17 {
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.item-21 {
+    grid-column: span 2;
+}
+
+
+
+.item-pink {
+    background-color: pink;
+}
+
+.item-red {
+    background-color: red;
+}
+
+.item-blue {
+    background-color: blue;
+}
+
+.item-purple {
+    background-color: purple;
+}
+
+.item-green {
+    background-color: green;
+}
+
+.item-aqua {
+    background-color: aqua;
+}
+
+.item-yellow {
+    background-color: yellow;
+}
