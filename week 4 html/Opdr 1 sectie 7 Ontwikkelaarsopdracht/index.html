@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Opdr 1 Sectie 7 Ontwikkelaarsopdracht</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1 class="header">Flexbox</h1>
+    <div class="container">
+      <div class="flex-item">
+        <div class="item item-1">Container Properties</div>
+  
+        <div class="item item-2">
+          <div class="small_item small_item-1">
+            //Creates a flexbox
+          </div>
+          display: flex;
+        </div>
+  
+        <div class="item item-3">
+          <div class="small_item small_item-2">
+            //Direction, establishes main-axis
+          </div>
+          flex-direction: row || row-reverse || column || column-reverse
+        </div>
+  
+        <div class="item item-4">
+          <div class="small_item small_item-3">
+            //To wrap or not to wrap
+          </div>
+          flex-wrap: nowrap || wrap || wrap-reverse
+        </div>
+  
+        <div class="item item-5">
+          <div class="small_item small_item-4">
+            //Shorthanded (direction wrap)
+          </div>
+          flex-flow: flex-direction || flex-wrap
+        </div>
+  
+        <div class="item item-6">
+          <div class="small_item small_item-5">
+            //Alignment main-axic
+          </div>
+          justify-content: flex-start || flex-end || center || space-between || space-around || space-evenly
+        </div>
+  
+        <div class="item item-7">
+          <div class="small_item small_item-6">
+            //Alignment cross-axis
+          </div>
+          Align-items: stretch || flex-start || flex-end || baseline
+        </div>
+  
+        <div class="item item-8">
+          <div class="small_item small_item-7">
+            //Alignment lines within the container
+          </div>
+          Align-content: normal || flex-start || flex-end || center || space-between || space-around || space-evenly ||
+          stretch
+        </div>
+  
+        <div class="item item-9">
+          <div class="small_item small_item-8"></div>
+        </div>
+  
+      </div>
+  
+      <div class="flex-item">
+  
+        <div class="item item-1">Item Properties</div>
+  
+        <div class="item item-2">
+          <div class="small_item small_item-1">
+            //Order of the (flex) html-elements
+          </div>
+          order: integer (default:0)
+        </div>
+  
+        <div class="item item-3">
+          <div class="small_item small_item-2">
+            //Ability to grow if necessary
+          </div>
+          flex-grow: integer (default: 0)
+        </div>
+  
+        <div class="item item-4">
+          <div class="small_item small_item-3">
+            //Ability to shrink if necessary
+          </div>
+          flex-shrink: positive integer (default: 1)
+        </div>
+  
+        <div class="item item-5">
+          <div class="small_item small_item-4">
+            //Defines default size of the item
+          </div>
+          flex-basis: length || keyword (default: auto)
+        </div>
+  
+        <div class="item item-6">
+          <div class="small_item small_item-5">
+            //Shorthanded (grow shrink basis)
+          </div>
+          flex: flex-grow flex-shrink flex-basis (default: 0 1 auto)
+        </div>
+  
+        <div class="item item-7">
+          <div class="small_item small_item-6">
+            //Override default alignment form align-items
+          </div>
+          align-self: auto || flex-start || flex-end || center || baseline || stretch
+        </div>
+  
+        <div class="item item-8">
+          <div class="small_item small_item-7"></div>
+        </div>
+  
+        <div class="item item-9">
+          <div class="small_item small_item-8"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+</html>
